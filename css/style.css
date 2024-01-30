@@ -7,26 +7,26 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.05em;
 	font-size: 16px;
-	background-color: #303841;
-	color: #d8dee9;
+	background-color: rgb(191, 206, 224);
+	color: #bdc9df;
 }
 h1,h2,h3,p,ol,ul,li,a {
 	font-family: sans-serif;
 }
 h1,h2,h3 {
 	font-family: sans-serif;
-	color: #EDEDED;
+	color: #000000;
 }
 h2 {
 	font-size: 1.3em;
 }
 a {
 	font-weight: bold;
-	color: #EDEDED;
+	color: #103051;
 	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 a:hover {
-	color: #848b95;
+	color: #9ab8d5;
 }
 code, pre {
 	background-color: #22262a;
@@ -63,3 +63,142 @@ p.copyright {
 		margin: 5rem 2rem;
 	}
 }
+
+/*********************************** 
+ Pulled styles for atomic examples
+************************************/
+
+/*Atom 1*/
+h2.headline {
+	font-size: 45px;
+    line-height: 1.07143;
+    font-weight: 900;
+    letter-spacing: -.005em;
+    font-family: 'Libre Franklin', sans-serif;
+	color: #262626;
+
+}
+
+/*Atom 2*/
+h3.subhead {
+	font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+	font-family: 'Schibsted Grotesk', sans-serif;
+	margin-top: 6px;
+
+}
+
+h3.ca-subhead {
+	font-size: 20px;
+    line-height: 1.10722;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 6px;
+	display: flex;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid #262626;
+    color: #262626;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: transparent;
+    line-height: 1;
+    background-color: #fcc89b;
+}
+
+/*Atom 3*/
+.shop-now-button {
+	background-color: black;
+	color: white;
+	padding: 10px 100px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }
+
+  /*Molecule 1*/
+  
+  h3.ca-subhead {
+	font-size: 20px;
+    line-height: 1.10722;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 6px;
+	display: flex;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid #262626;
+    color: #262626;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: transparent;
+    line-height: 1;
+    background-color: #fcc89b;
+}
+
+div.unit-copy-wrapper {
+	padding-top: 45px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+ /*Organism 1*/
+ 
+ .text-box {
+    padding-right: 1000;
+    margin-top: 30px;
+    margin: auto;
+    background-image: url(../img/header-bottles.webp) ;
+    background-position: right;
+    background-size: cover;
+    width: 120%;
+    scale: 120%;
+}
+ 
+ h3.ca-subhead {
+	font-size: 20px;
+    line-height: 1.10722;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 6px;
+	display: flex;
+    margin: auto;
+    border: 1px solid #262626;
+    color: #262626;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: transparent;
+    line-height: 1;
+    background-color: #fcc89b;
+}
+
+
+div.organism-copy-wrapper {
+	padding-top: 50px;
+    text-align: center;
+    position: left;
+    display: block;
+}
+.shop-now-button {
+	background-color: black;
+	color: white;
+	padding: 10px 100px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	align-content: center;
+  }
