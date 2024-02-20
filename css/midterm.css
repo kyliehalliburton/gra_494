@@ -5,6 +5,7 @@ html {
 body {
     background-color: rgb(255, 255, 255);
     color: white;
+    margin: 0;
 }
 
 a {
@@ -287,6 +288,7 @@ h4 {
         margin-left: 2rem;
         padding-left: 0rem;
         margin-bottom: 5rem;
+        box-shadow: 2px 2px 20px #00000089;
     }
 }
 
@@ -438,7 +440,7 @@ a.lightbox-close:after {
 }
 
 .lightbox-target:target a.lightbox-close {
-    top: 0;
+    top: 0.5;
 }
 
 
